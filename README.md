@@ -1,8 +1,7 @@
-# java-new-features
-Java new features (Java8, Java9, Java10, Java11, Java12, Java13, Java14)
+# Java new features
 
 
-# Java 9
+## Java 9
 
 - private method inside Interface
 - effective final with try-with-resource -> resource as dependency can be passed as an argument in try(resource). No need to say try(Resource resource = new Resource)
@@ -29,7 +28,7 @@ Java new features (Java8, Java9, Java10, Java11, Java12, Java13, Java14)
 - Modules
 
 
-# Java 10
+## Java 10
 
 - local variable type inference
 - Optional
@@ -40,6 +39,6 @@ Java new features (Java8, Java9, Java10, Java11, Java12, Java13, Java14)
   - toUnmodifiableMap()
 - List.copyOf(), Set.copyOf() and Map.copyOf() methods
 
-# Java 11
+## Java 11
 
 - var for lambda local variables
