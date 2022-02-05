@@ -17,4 +17,24 @@ Java new features (Java8, Java9, Java10, Java11, Java12, Java13, Java14)
    - ifPresentOrElse() -> It is new method to get Optional value
    - or()
    - stream()
+- Collectors
+   - filtering()
+   - flatMapping()
+- CompletableFuture
+   - completeOnTimeout()
+   - orTimeout() 
+- toList(), toSet(), toMap() method to create immutable collections
+- Annonymous inner class with diamond <> operator
+- JShell -> REPL for java
+- Modules
 
+
+# Java 10
+
+- local variable type inference
+- Optional
+  - orElseThrow()
+- Collectors
+  - toUnmodifiableList()
+  - toUnmodifiableSet()
+  - toUnmodifiableMap()
