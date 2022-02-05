@@ -39,3 +39,7 @@ Java new features (Java8, Java9, Java10, Java11, Java12, Java13, Java14)
   - toUnmodifiableSet()
   - toUnmodifiableMap()
 - List.copyOf(), Set.copyOf() and Map.copyOf() methods
+
+# Java 11
+
+- var for lambda local variables
