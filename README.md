@@ -23,9 +23,9 @@ Java new features (Java8, Java9, Java10, Java11, Java12, Java13, Java14)
 - CompletableFuture
    - completeOnTimeout()
    - orTimeout() 
-- toList(), toSet(), toMap() method to create immutable collections
+- List.of(), Set.of(), Map.of() methods to create immutable collections
 - Annonymous inner class with diamond <> operator
-- JShell -> REPL for java
+- JShell -> REPL(Read Evaluate Print Loop) for java
 - Modules
 
 
@@ -38,3 +38,4 @@ Java new features (Java8, Java9, Java10, Java11, Java12, Java13, Java14)
   - toUnmodifiableList()
   - toUnmodifiableSet()
   - toUnmodifiableMap()
+- List.copyOf(), Set.copyOf() and Map.copyOf() methods
