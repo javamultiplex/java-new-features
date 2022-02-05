@@ -1,11 +1,11 @@
-package util;
+package com.javamultiplex.util;
 
 import com.javamultiplex.model.Employee;
-import com.javamultiplex.util.EmployeeUtil;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.*;
+import java.util.List;
+import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
