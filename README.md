@@ -63,7 +63,7 @@
      - teeing()
  
 ## Java 13
-  -  Text Block -> multi line strings with """ ---------  """ (Experimental and went live as part of Java 15)
+  -  Text Block (Experimental and went live as part of Java 15) -> multi line strings with """ ---------  """ 
 
 
 ## References
