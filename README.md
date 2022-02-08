@@ -42,3 +42,17 @@
 ## Java 11
 
 - var for lambda local variables
+- Optional.empty()
+- Files
+  - readString(Path)
+  - writeString(Path)
+- Predicate
+  - not()
+- String
+  - repeat(int) - Repeats the String as many times as provided by the int parameter
+  - lines() - Uses a Spliterator to lazily provide lines from the source string
+  - isBlank() - Indicates if the String is empty or contains only white space characters
+  - stripLeading() - Removes the white space from the beginning
+  - stripTrailing() - Removes the white space from the end
+  - strip() - Removes the white space from both, beginning and the end of string
+    - Difference between trim() and strip() [https://stackoverflow.com/questions/51266582/difference-between-string-trim-and-strip-methods-in-java-11]
