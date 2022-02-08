@@ -56,3 +56,14 @@
   - stripTrailing() - Removes the white space from the end
   - strip() - Removes the white space from both, beginning and the end of string
     - Difference between trim() and strip()? - https://stackoverflow.com/questions/51266582/difference-between-string-trim-and-strip-methods-in-java-11
+
+## Java 12
+  -  Switch Expressions
+  -  Collectors
+     - teeing()
+
+
+
+## References
+
+- https://www.youtube.com/watch?v=oRcOiGWK9Ts
