@@ -55,4 +55,4 @@
   - stripLeading() - Removes the white space from the beginning
   - stripTrailing() - Removes the white space from the end
   - strip() - Removes the white space from both, beginning and the end of string
-    - Difference between trim() and strip() [https://stackoverflow.com/questions/51266582/difference-between-string-trim-and-strip-methods-in-java-11]
+    - Difference between trim() and strip()? - https://stackoverflow.com/questions/51266582/difference-between-string-trim-and-strip-methods-in-java-11
