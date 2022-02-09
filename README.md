@@ -15,6 +15,7 @@
   - static method
 - Stream API
   - stream()
+  - parallelStream()
   - filter()
   - map()
   - forEach()
@@ -23,6 +24,8 @@
        - toList()
        - toMap()
        - toSet()
+       - groupingBy()
+       - mapping()
 - Lambda Functions
 - Enhancements in Date/Time API
 
