@@ -2,6 +2,7 @@
 
 ## Java 8
 
+- Introduction of functional programming
 - Functional Interfaces
   - Consumer
   - BiConsumer
