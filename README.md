@@ -58,12 +58,12 @@
     - Difference between trim() and strip()? - https://stackoverflow.com/questions/51266582/difference-between-string-trim-and-strip-methods-in-java-11
 
 ## Java 12
-  -  Switch Expressions (Experimental and went live as part of Java 14)
+  -  Switch Expressions (Introduced as Experimental and went live as part of Java 14)
   -  Collectors
      - teeing()
  
 ## Java 13
-  -  Text Block (Experimental and went live as part of Java 15) -> multi line strings with """ ---------  """ 
+  -  Text Block (Introduced as Experimental and went live as part of Java 15) -> multi line strings with """ ---------  """ 
 
 
 ## References
