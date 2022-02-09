@@ -1,5 +1,21 @@
 # Java new features
 
+## Java 8
+
+- Functional Interfaces
+  - Consumer
+  - BiConsumer
+  - Supplier
+  - Function
+  - BiFunction
+  - Predicate
+  - BiPredicate
+- Interface
+  - default method
+  - static method
+- Stream API
+- Lambda Functions
+- Enhancements in Date/Time API
 
 ## Java 9
 
