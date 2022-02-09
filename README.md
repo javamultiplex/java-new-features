@@ -14,6 +14,15 @@
   - default method
   - static method
 - Stream API
+  - stream()
+  - filter()
+  - map()
+  - forEach()
+  - collect()
+    - Collectors
+       - toList()
+       - toMap()
+       - toSet()
 - Lambda Functions
 - Enhancements in Date/Time API
 
