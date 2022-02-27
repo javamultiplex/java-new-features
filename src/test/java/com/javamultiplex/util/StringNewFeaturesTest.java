@@ -2,10 +2,6 @@ package com.javamultiplex.util;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -19,8 +15,8 @@ public class StringNewFeaturesTest {
      */
     @Test
     public void shouldStreamToChars() {
-        final String input = "\uD800\uDC00";
-        final IntStream intStream = input.chars();
+        var input = "\uD800\uDC00";
+        var intStream = input.chars();
         intStream.forEach(System.out::println);
     }
 
@@ -29,8 +25,8 @@ public class StringNewFeaturesTest {
      */
     @Test
     public void shouldStreamToCodePoints() {
-        final String input = "\uD800\uDC00";
-        final IntStream intStream = input.codePoints();
+        var input = "\uD800\uDC00";
+        var intStream = input.codePoints();
         intStream.forEach(System.out::println);
     }
 
@@ -38,8 +34,8 @@ public class StringNewFeaturesTest {
      * Java 11
      */
     @Test
-    public void shouldValidateBlankString(){
-        String input=" ";
+    public void shouldValidateBlankString() {
+        var input = " ";
         assertTrue(input.isBlank());
         assertFalse(input.isEmpty());
     }
@@ -48,12 +44,12 @@ public class StringNewFeaturesTest {
      * Java 11
      */
     @Test
-    public void shouldStreamStringInMultipleLines(){
-        String input="Hello\nWorld";
-        final List<String> list = input.lines().toList();
-        assertEquals(2,list.size());
-        assertEquals("Hello",list.get(0));
-        assertEquals("World",list.get(1));
+    public void shouldStreamStringInMultipleLines() {
+        var input = "Hello\nWorld";
+        var list = input.lines().toList();
+        assertEquals(2, list.size());
+        assertEquals("Hello", list.get(0));
+        assertEquals("World", list.get(1));
     }
 
 
@@ -61,10 +57,10 @@ public class StringNewFeaturesTest {
      * Java 11
      */
     @Test
-    public void shouldRepeatString3Times(){
-        String input="hello";
-        final String output = input.repeat(3);
-        assertEquals("hellohellohello",output);
+    public void shouldRepeatString3Times() {
+        var input = "hello";
+        var output = input.repeat(3);
+        assertEquals("hellohellohello", output);
     }
 
 
@@ -72,10 +68,10 @@ public class StringNewFeaturesTest {
      * Java 11
      */
     @Test
-    public void shouldStripAndTrimString(){
-        String input="    hello    ";
-        assertEquals("hello",input.strip());
-        assertEquals("hello",input.trim());
+    public void shouldStripAndTrimString() {
+        var input = "    hello    ";
+        assertEquals("hello", input.strip());
+        assertEquals("hello", input.trim());
     }
 
     /**
@@ -83,28 +79,28 @@ public class StringNewFeaturesTest {
      * https://stackoverflow.com/questions/51266582/difference-between-string-trim-and-strip-methods-in-java-11
      */
     @Test
-    public void shouldStripStringButNotTrim(){
-        String input="\u2000hello    ";
-        assertEquals("hello",input.strip());
-        assertEquals("\u2000hello",input.trim());
+    public void shouldStripStringButNotTrim() {
+        var input = "\u2000hello    ";
+        assertEquals("hello", input.strip());
+        assertEquals("\u2000hello", input.trim());
     }
 
     /**
      * Java 11
      */
     @Test
-    public void shouldStripLeadingSpaces(){
-        String input="  hello  ";
-        assertEquals("hello  ",input.stripLeading());
+    public void shouldStripLeadingSpaces() {
+        var input = "  hello  ";
+        assertEquals("hello  ", input.stripLeading());
     }
 
     /**
      * Java 11
      */
     @Test
-    public void shouldStripTrailingSpaces(){
-        String input="  hello  ";
-        assertEquals("  hello",input.stripTrailing());
+    public void shouldStripTrailingSpaces() {
+        var input = "  hello  ";
+        assertEquals("  hello", input.stripTrailing());
     }
 
     /**
@@ -112,8 +108,8 @@ public class StringNewFeaturesTest {
      */
     @Test
     public void shouldIndentString() {
-        String input = "hello\nworld";
-        final String output = input.indent(4);
+        var input = "hello\nworld";
+        var output = input.indent(4);
         assertNotNull(output);
         assertEquals("    hello\n    world\n", output);
     }
@@ -123,8 +119,8 @@ public class StringNewFeaturesTest {
      */
     @Test
     public void shouldTransformString() {
-        String input = "hello";
-        final Object output = input.transform(String::toUpperCase);
+        var input = "hello";
+        var output = input.transform(String::toUpperCase);
         assertNotNull(output);
         assertEquals("HELLO", output);
     }

@@ -12,12 +12,12 @@ import java.util.Set;
 @Getter
 @ToString
 public class Employee {
-    private final long id;
-    private final String name;
-    private final int age;
-    private final String department;
-    private final long salary;
-    private final Set<String> courses;
+    private long id;
+    private String name;
+    private int age;
+    private String department;
+    private long salary;
+    private Set<String> courses;
 
     public Employee(long id, String name, int age, String department, long salary, Set<String> courses) {
         this.id = id;
@@ -26,5 +26,10 @@ public class Employee {
         this.department = department;
         this.salary = salary;
         this.courses = courses;
+    }
+
+    public Employee(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
 }

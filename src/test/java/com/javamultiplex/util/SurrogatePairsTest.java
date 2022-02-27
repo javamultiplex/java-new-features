@@ -32,25 +32,25 @@ public class SurrogatePairsTest {
 
     @Test
     public void shouldGetCodePointsAtIndex0(){
-        String input1="\uD800\uDBFF";
+        var input1="\uD800\uDBFF";
         assertEquals(55296, input1.codePointAt(0));
-        String input2="\uDC00\uDFFF";
+        var input2="\uDC00\uDFFF";
         assertEquals(56320, input2.codePointAt(0));
     }
 
     @Test
     public void shouldGetCodePointAtsIndex1(){
-        String input1="\uD800\uDBFF";
+        var input1="\uD800\uDBFF";
         assertEquals(56319, input1.codePointAt(1));
-        String input2="\uDC00\uDFFF";
+        var input2="\uDC00\uDFFF";
         assertEquals(57343, input2.codePointAt(1));
     }
 
     @Test
     public void shouldGetCodePointOfSurrogatePairs(){
-        String input1="\uD800\uDC00";
+        var input1="\uD800\uDC00";
         assertEquals(65536, input1.codePointAt(0));
-        String input2="\uD800\uDC01 ";
+        var input2="\uD800\uDC01 ";
         assertEquals(65537, input2.codePointAt(0));
 
     }
