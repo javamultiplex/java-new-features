@@ -27,8 +27,12 @@
        - toSet()
        - groupingBy()
        - mapping()
+       - joining()
 - Lambda Functions
 - Enhancements in Date/Time API
+- StringJoiner
+- String
+  - join()
 
 ## Java 9
 
