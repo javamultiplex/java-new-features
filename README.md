@@ -35,6 +35,9 @@
 - private method inside Interface
 - effective final with try-with-resource -> resource as dependency can be passed as an argument in try(resource). No need to say try(Resource resource = new Resource)
 - variable with name underscore ( _ ) not allowed now
+- String
+  - chars()
+  - codePoints()
 - Stream
     - takeWhile(Predicate) -> It is like door open now and close in future
     - dropWhile(Predicate) -> It is like door close now and open in future
@@ -90,6 +93,9 @@
   -  Switch Expressions (Introduced as Experimental and went live as part of Java 14)
   -  Collectors
      - teeing()
+  - String
+    - indent()
+    - transform()
  
 ## Java 13
   -  Text Block (Introduced as Experimental and went live as part of Java 15) -> multi line strings with """ ---------  """ 
