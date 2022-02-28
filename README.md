@@ -69,6 +69,7 @@
 - local variable type inference using var
   - var can't be used as method parameter and return type.
   - var can't be used as class level attributes
+  - null can't be assigned to var
 - Optional
   - orElseThrow()
 - Collectors
