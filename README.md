@@ -66,7 +66,9 @@
 
 ## Java 10
 
-- local variable type inference
+- local variable type inference using var
+  - var can't be used as method parameter and return type.
+  - var can't be used as class level attributes
 - Optional
   - orElseThrow()
 - Collectors
