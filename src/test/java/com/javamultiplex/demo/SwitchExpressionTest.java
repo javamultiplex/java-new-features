@@ -22,7 +22,7 @@ public class SwitchExpressionTest {
     }
 
     @Test
-    public void shouldUseSwitchExpressionWithYield() {
+    public void shouldUseSwitchExpressionWithArrowAndYield() {
         int a = 2;
         String output = switch (a) {
             case 1, 2, 3 -> {
@@ -33,6 +33,27 @@ public class SwitchExpressionTest {
             default -> "fun";
         };
         assertEquals("hello", output);
+        int b = 3;
+        int result = switch (b) {
+            case 1, 2, 3 -> 100;
+            case 5, 6, 7 -> 200;
+            default -> 300;
+        };
+        assertEquals(100, result);
+    }
+
+    @Test
+    public void shouldUseSwitchExpressionWithColonAndYield() {
+        int a = 7;
+        String output = switch (a) {
+            case 1, 2, 3:
+                yield "hello";
+            case 5, 6, 7:
+                yield "world";
+            default:
+                yield "fun";
+        };
+        assertEquals("world", output);
         int b = 3;
         int result = switch (b) {
             case 1, 2, 3 -> 100;
