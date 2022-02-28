@@ -1,4 +1,4 @@
-package com.javamultiplex.util;
+package com.javamultiplex.demo;
 
 import com.javamultiplex.model.Employee;
 import org.junit.jupiter.api.Test;
