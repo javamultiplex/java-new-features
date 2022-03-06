@@ -62,18 +62,26 @@
 - Annonymous inner class with diamond <> operator
 - JShell -> REPL(Read Evaluate Print Loop) for java
 - JPMS (Java Platform Module System)
+  - Types of modules
+    - unnamed modules
+    - automatic modules
+    - named modules
   - jdeps
   - jmods
   - Modular Jar
   - Module Path
-  - Module Declaration
-    - module-info.java
-      - requires [static] [transitive] (module)
-      - exports (package) [to] [module]
-      - opens (package) [to] [module]
-      - open module (moduelname) {}
-      - provides (service) with (implementation)
-      - uses (service)
+  - Module Declaration (module-info.java)
+     - module (modulename){}
+     - requires [static] [transitive] (module)
+     - exports (package) [to] [module]
+     - opens (package) [to] [module]
+     - open module (moduelname) {}
+     - provides (service) with (implementation)
+     - uses (service)
+   - Module Descriptor (module-info.class)
+   - jdeps -jdkinternals [jar] (command to validate java internal api usage in jar)
+ - Java Linker
+   - jlink
 
 ## Java 10
 
