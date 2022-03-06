@@ -117,6 +117,9 @@
   - update in **instanceof** operator
   - Helpful NullPointerExceptions (-XX:+ShowCodeDetailsInExceptionMessages)
 
+## Java 15
+   - Text Block (Live)
+
 
 ## References
 
