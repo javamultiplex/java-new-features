@@ -107,6 +107,16 @@
 ## Java 13
   -  Text Block (Introduced as Experimental and went live as part of Java 15) -> multi line strings with """ ---------  """ 
 
+## Java 14
+  - Switch Expressions (Live)
+  - Java Records
+    - By default record is final and all properties are final
+    - Implements interfaces but can't extends classes
+    - No default constructor
+    - no setter method available
+  - update in **instanceof** operator
+  - Helpful NullPointerExceptions (-XX:+ShowCodeDetailsInExceptionMessages)
+
 
 ## References
 
