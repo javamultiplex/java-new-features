@@ -109,7 +109,7 @@
 
 ## Java 14
   - Switch Expressions (Live)
-  - Java Records
+  - Java Records (Introduced as Experimental)
     - By default record is final and all properties are final
     - Implements interfaces but can't extends classes
     - No default constructor
