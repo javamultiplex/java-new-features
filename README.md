@@ -61,8 +61,19 @@
 - List.of(), Set.of(), Map.of() methods to create immutable collections
 - Annonymous inner class with diamond <> operator
 - JShell -> REPL(Read Evaluate Print Loop) for java
-- Modules
-
+- JPMS (Java Platform Module System)
+  - jdeps
+  - jmods
+  - Modular Jar
+  - Module Path
+  - Module Declaration
+    - module-info.java
+      - requires [static] [transitive] (module)
+      - exports (package) [to] [module]
+      - opens (package) [to] [module]
+      - open module (moduelname) {}
+      - provides (service) with (implementation)
+      - uses (service)
 
 ## Java 10
 
