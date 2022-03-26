@@ -129,10 +129,15 @@
 ## Java 14
   - Switch Expressions (Live)
   - Java Records (Introduced as Experimental)
-    - By default record is final and all properties are final
+    - data classes 
+    - By default record is final and all properties are final (Immutable)
     - Implements interfaces but can't extends classes
     - No default constructor
     - no setter method available
+    - toString() method avaialble by default
+    - Adding a canonical constructors
+    - Adding methods
+    - Adding local records inside function
   - update in **instanceof** operator
   - Helpful NullPointerExceptions (-XX:+ShowCodeDetailsInExceptionMessages)
 
