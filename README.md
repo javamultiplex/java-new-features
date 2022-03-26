@@ -124,8 +124,17 @@
     - transform()
  
 ## Java 13
-  -  Text Block (Introduced as Experimental and went live as part of Java 15) -> multi line strings with """ ---------  """ 
-
+  -  Text Block (Introduced as Experimental and went live as part of Java 15)
+     - multi line strings with """ ---------  """ 
+     - No need to escape
+     - Smart Indentations
+     - Trailing space handling
+     - New escapes
+       - \
+       - \s
+     - formating
+       - replace(), replaceAll()
+       - String.format()
 ## Java 14
   - Switch Expressions (Live)
   - Java Records (Introduced as Experimental)
