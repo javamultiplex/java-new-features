@@ -152,8 +152,12 @@
 
 ## Java 15
    - Text Block (Live)
-   - Sealed classes, interface (Introduced as Experimental)
+   - Sealed classes, interface (Preview)
    - Local Class, Interface, Enum and Record
+   - Pattern matching for instanceOf opertator (Second Preview) 
+   - Records (Second Preview)
+      - We can use annotations on top of Record
+      - We can implement sealed interface
 
 
 ## References
