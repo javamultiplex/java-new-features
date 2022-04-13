@@ -116,7 +116,7 @@
     - Difference between trim() and strip()? - https://stackoverflow.com/questions/51266582/difference-between-string-trim-and-strip-methods-in-java-11
 
 ## Java 12
-  -  Switch Expressions (Introduced as Experimental and went live as part of Java 14)
+  -  Switch Expressions (Preview)
   -  Collectors
      - teeing()
   - String
@@ -124,7 +124,7 @@
     - transform()
  
 ## Java 13
-  -  Text Block (Introduced as Experimental and went live as part of Java 15)
+  -  Text Block (Preview)
      - multi line strings with """ ---------  """ 
      - No need to escape
      - Smart Indentations
@@ -135,9 +135,10 @@
      - formating
        - replace(), replaceAll()
        - String.format()
+  - Switch Expressions (Second Preview)
 ## Java 14
   - Switch Expressions (Live)
-  - Java Records (Introduced as Experimental)
+  - Java Records (Preview)
     - data classes 
     - By default record is final and all properties are final (Immutable)
     - Implements interfaces but can't extends classes
@@ -147,8 +148,9 @@
     - Adding a canonical constructors
     - Adding methods
     - Adding local records inside function
-  - update in **instanceof** operator
+  - Pattern matching for **instanceof** operator (Preview)
   - Helpful NullPointerExceptions (-XX:+ShowCodeDetailsInExceptionMessages)
+  - Text Block (Second Preview)
 
 ## Java 15
    - Text Block (Live)
