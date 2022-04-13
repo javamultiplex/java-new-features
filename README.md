@@ -152,6 +152,8 @@
 
 ## Java 15
    - Text Block (Live)
+   - Sealed classes, interface (Introduced as Experimental)
+   - Local Class, Interface, Enum and Record
 
 
 ## References
