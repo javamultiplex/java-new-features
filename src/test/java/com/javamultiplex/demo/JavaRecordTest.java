@@ -21,4 +21,11 @@ public class JavaRecordTest {
         assertEquals("Rohit",student.name());
         assertEquals(28,student.age());
     }
+
+    private void fun(){
+        record Emp(String name){};
+        Emp emp=new Emp("rohit");
+        System.out.println(emp);
+    }
 }
+
