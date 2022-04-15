@@ -163,7 +163,7 @@
 
 ## Java 16
    - Java Records (Live)
-   - InvocationHandler with default method call.
+   - Add InvocationHandler::invokeDefault Method for Proxy's Default Method Support
    - Stream.toList()
    - Pattern matching for **instanceOf** opertator (Live) 
    - Sealed classes (Second Preview)
