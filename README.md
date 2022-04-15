@@ -169,7 +169,7 @@
    - Sealed classes (Second Preview)
    - Find Period-of-day using ```DateTimeFormatter.ofPattern("B").format(LocalDateTime.now())```
 
-# Java 17 (LTS)
+## Java 17 (LTS)
    - Pattern Matching for switch expressions (Preview)
    - Sealed classes (Live)
 
