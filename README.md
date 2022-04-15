@@ -156,11 +156,16 @@
    - Text Block (Live)
    - Sealed classes, interface (Preview)
    - Local Class, Interface, Enum and Record (Preview)
-   - Pattern matching for instanceOf opertator (Second Preview) 
-   - Records (Second Preview)
+   - Pattern matching for **instanceOf** opertator (Second Preview) 
+   - Java Records (Second Preview)
       - We can use annotations on top of Record
       - We can implement sealed interface
 
+## Java 16
+   - Java Records (Live)
+   - InvocationHandler with default method call.
+   - Stream.toList()
+   - Pattern matching for **instanceOf** opertator (Live) 
 
 ## References
 
