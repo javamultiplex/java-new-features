@@ -176,6 +176,10 @@
 ## Java 18
    - UTF-8 by default in all java apis
    - Code Snippets in Java Documentation
+     -   {@snippet :
+            final SnippetExample instance = SnippetExample.newInstance(); // @highlight substring="newInstance"
+            instance.processIt();
+         }
    - Minimal web server
      - ```jwebserver```
      - Supports only HTTP protocol
