@@ -177,7 +177,7 @@
    - UTF-8 by default in all java apis
    - Code Snippets in Java Documentation
    - Minimal web server
-     - ./jwebserver
+     - ```jwebserver```
      - Supports only HTTP protocol
      - Serve only static contents
      - Serve static content from specific folder
