@@ -33,9 +33,9 @@ public class ParallelStreamsTest {
         return element % 2 == 0;
     }
 
-    private static void sleep(int mills) {
+    private static void sleep(int millis) {
         try {
-            Thread.sleep(mills);
+            Thread.sleep(millis);
         } catch (InterruptedException e) {
             System.out.println(e.getMessage());
         }
