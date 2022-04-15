@@ -155,7 +155,7 @@
 ## Java 15
    - Text Block (Live)
    - Sealed classes, interface (Preview)
-   - Local Class, Interface, Enum and Record
+   - Local Class, Interface, Enum and Record (Preview)
    - Pattern matching for instanceOf opertator (Second Preview) 
    - Records (Second Preview)
       - We can use annotations on top of Record
