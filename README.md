@@ -1,6 +1,6 @@
 # Java new features
 
-## Java 8
+## Java 8 (LTS)
 
 - Introduction of functional programming
 - Functional Interfaces
@@ -97,7 +97,7 @@
   - toUnmodifiableMap()
 - List.copyOf(), Set.copyOf() and Map.copyOf() methods
 
-## Java 11
+## Java 11 (LTS)
 
 - var for lambda local variables
 - Optional.empty()
@@ -168,6 +168,10 @@
    - Pattern Matching for **instanceOf** (Live) 
    - Sealed classes (Second Preview)
    - Find Period-of-day using ```DateTimeFormatter.ofPattern("B").format(LocalDateTime.now())```
+
+# Java 17 (LTS)
+   - Pattern Matching for switch expressions (Preview)
+   - Sealed classes (Live)
 
 ## References
 
