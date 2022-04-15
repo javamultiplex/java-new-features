@@ -167,6 +167,7 @@
    - Stream.toList()
    - Pattern matching for **instanceOf** opertator (Live) 
    - Sealed classes (Second Preview)
+   - Find Period-of-day using ```DateTimeFormatter.ofPattern("B").format(LocalDateTime.now())```
 
 ## References
 
