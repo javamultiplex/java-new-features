@@ -173,6 +173,9 @@
    - Pattern Matching for switch expressions (Preview)
    - Sealed classes (Live)
 
+## Java 18
+   - Pattern Matching for switch expressions (Second Preview)
+
 ## References
 
 - https://www.youtube.com/watch?v=oRcOiGWK9Ts
