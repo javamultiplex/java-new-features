@@ -172,6 +172,7 @@
 ## Java 17 (LTS)
    - Pattern Matching for switch expressions (Preview)
    - Sealed classes (Live)
+   - Strognly Encapsulate JDK Internals
 
 ## Java 18
    - UTF-8 by default in all java apis
