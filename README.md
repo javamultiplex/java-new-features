@@ -148,7 +148,7 @@
     - Adding a canonical constructors
     - Adding methods
     - Adding local records inside function
-  - Pattern matching for **instanceof** operator (Preview)
+  - Pattern Matching for **instanceof** (Preview)
   - Helpful NullPointerExceptions (-XX:+ShowCodeDetailsInExceptionMessages)
   - Text Block (Second Preview)
 
@@ -156,7 +156,7 @@
    - Text Block (Live)
    - Sealed classes (Preview)
    - Local Class, Interface, Enum and Record (Preview)
-   - Pattern matching for **instanceOf** opertator (Second Preview) 
+   - Pattern Matching for **instanceOf** (Second Preview) 
    - Java Records (Second Preview)
       - We can use annotations on top of Record
       - We can implement sealed interface
@@ -165,7 +165,7 @@
    - Java Records (Live)
    - Add InvocationHandler::invokeDefault Method for Proxy's Default Method Support
    - Stream.toList()
-   - Pattern matching for **instanceOf** opertator (Live) 
+   - Pattern Matching for **instanceOf** (Live) 
    - Sealed classes (Second Preview)
    - Find Period-of-day using ```DateTimeFormatter.ofPattern("B").format(LocalDateTime.now())```
 
@@ -184,4 +184,6 @@
 - https://www.youtube.com/watch?v=qBTBgSviBG4&list=PLEocw3gLFc8VHoA_OgHN1q6Zd-r-q-dvU&index=31
 - https://www.youtube.com/watch?v=22lDKofzkk0&list=PLEocw3gLFc8VHoA_OgHN1q6Zd-r-q-dvU&index=36
 - https://www.youtube.com/watch?v=xzc8Hug0o5A
+- https://www.youtube.com/watch?v=Yacu1yUktjY
+- https://www.youtube.com/watch?v=Xkh5sa3vjTE
 
