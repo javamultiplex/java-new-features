@@ -173,6 +173,8 @@
    - Pattern Matching for switch expressions (Preview)
    - Sealed classes (Live)
    - Strognly Encapsulate JDK Internals
+   - Removal of experimental Java based ahead-of-time (AOT) and just-in-time (JIT) compiler.
+   - Deprecate the Security Manager for removal
 
 ## Java 18
    - UTF-8 by default in all java apis
@@ -189,6 +191,7 @@
    - Pattern Matching for switch expressions (Second Preview)
      - Guarded Pattern
      - Null matching
+   - Deprecate the finalization for removal
 
 ## References
 
