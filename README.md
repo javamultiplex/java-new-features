@@ -174,7 +174,16 @@
    - Sealed classes (Live)
 
 ## Java 18
+   - UTF-8 by default in all java apis
+   - Code Snippets in Java Documentation
+   - Minimal web server
+     - ./jwebserver
+     - Supports only HTTP protocol
+     - Serve only static contents
+     - Serve static content from specific folder
    - Pattern Matching for switch expressions (Second Preview)
+     - Guarded Pattern
+     - Null matching
 
 ## References
 
