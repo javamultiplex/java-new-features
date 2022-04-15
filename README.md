@@ -173,3 +173,14 @@
 
 - https://www.youtube.com/watch?v=oRcOiGWK9Ts
 - https://www.youtube.com/watch?v=lBOwPYvdvLQ
+- https://www.youtube.com/watch?v=jGuDzW85FPI&list=PLEocw3gLFc8VHoA_OgHN1q6Zd-r-q-dvU&index=1
+- https://www.youtube.com/watch?v=HeRZRGdvyL4&list=PLEocw3gLFc8VHoA_OgHN1q6Zd-r-q-dvU&index=2
+- https://www.youtube.com/watch?v=Xkb6QdljWhA&list=PLEocw3gLFc8VHoA_OgHN1q6Zd-r-q-dvU&index=3
+- https://www.youtube.com/watch?v=J1YKAFtNz70&list=PLEocw3gLFc8VHoA_OgHN1q6Zd-r-q-dvU&index=9
+- https://www.youtube.com/watch?v=FgGmnMq3UqE&list=PLEocw3gLFc8VHoA_OgHN1q6Zd-r-q-dvU&index=15
+- https://www.youtube.com/watch?v=cHmHrZZQWNc&list=PLEocw3gLFc8VHoA_OgHN1q6Zd-r-q-dvU&index=16
+- https://www.youtube.com/watch?v=JGZH_2Phy58&list=PLEocw3gLFc8VHoA_OgHN1q6Zd-r-q-dvU&index=17
+- https://www.youtube.com/watch?v=I7H8xaSBRIk&list=PLEocw3gLFc8VHoA_OgHN1q6Zd-r-q-dvU&index=18
+- https://www.youtube.com/watch?v=qBTBgSviBG4&list=PLEocw3gLFc8VHoA_OgHN1q6Zd-r-q-dvU&index=31
+- https://www.youtube.com/watch?v=22lDKofzkk0&list=PLEocw3gLFc8VHoA_OgHN1q6Zd-r-q-dvU&index=36
+- 
