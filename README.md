@@ -154,7 +154,7 @@
 
 ## Java 15
    - Text Block (Live)
-   - Sealed classes, interface (Preview)
+   - Sealed classes (Preview)
    - Local Class, Interface, Enum and Record (Preview)
    - Pattern matching for **instanceOf** opertator (Second Preview) 
    - Java Records (Second Preview)
@@ -166,6 +166,7 @@
    - InvocationHandler with default method call.
    - Stream.toList()
    - Pattern matching for **instanceOf** opertator (Live) 
+   - Sealed classes (Second Preview)
 
 ## References
 
