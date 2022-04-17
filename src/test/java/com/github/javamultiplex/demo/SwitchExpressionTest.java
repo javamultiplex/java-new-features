@@ -1,4 +1,4 @@
-package com.javamultiplex.demo;
+package com.github.javamultiplex.demo;
 
 import org.junit.jupiter.api.Test;
 
@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * @author Rohit Agarwal on 01/03/22 12:12 AM
- * @copyright www.javamultiplex.com
+ * @copyright github.com/javamultiplex
  */
 public class SwitchExpressionTest {
 

@@ -1,10 +1,10 @@
-package com.javamultiplex.demo;
+package com.github.javamultiplex.demo;
 
 import org.junit.jupiter.api.Test;
 
 /**
  * @author Rohit Agarwal on 01/03/22 1:00 AM
- * @copyright www.javamultiplex.com
+ * @copyright github.com/javamultiplex
  */
 public class TextBlockTest {
 

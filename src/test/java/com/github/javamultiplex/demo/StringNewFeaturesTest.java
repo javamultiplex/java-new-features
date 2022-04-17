@@ -1,4 +1,4 @@
-package com.javamultiplex.demo;
+package com.github.javamultiplex.demo;
 
 import org.junit.jupiter.api.Test;
 
@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * @author Rohit Agarwal on 27/02/22 5:20 PM
- * @copyright www.javamultiplex.com
+ * @copyright github.com/javamultiplex
  */
 public class StringNewFeaturesTest {
 

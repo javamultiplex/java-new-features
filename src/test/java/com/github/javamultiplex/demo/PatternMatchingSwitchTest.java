@@ -1,4 +1,4 @@
-package com.javamultiplex.demo;
+package com.github.javamultiplex.demo;
 
 import org.junit.jupiter.api.Test;
 
@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 
 /**
  * @author Rohit Agarwal on 15/04/22 7:10 PM
- * @copyright www.javamultiplex.com
+ * @copyright github.com/javamultiplex
  */
 public class PatternMatchingSwitchTest {
 

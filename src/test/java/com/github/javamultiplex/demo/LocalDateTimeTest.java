@@ -1,4 +1,4 @@
-package com.javamultiplex.demo;
+package com.github.javamultiplex.demo;
 
 import org.junit.jupiter.api.Test;
 
@@ -8,7 +8,7 @@ import java.time.format.DateTimeFormatter;
 
 /**
  * @author Rohit Agarwal on 15/04/22 2:26 PM
- * @copyright www.javamultiplex.com
+ * @copyright github.com/javamultiplex
  */
 public class LocalDateTimeTest {
 

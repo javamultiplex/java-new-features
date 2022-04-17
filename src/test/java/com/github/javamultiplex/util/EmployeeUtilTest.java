@@ -1,6 +1,6 @@
-package com.javamultiplex.util;
+package com.github.javamultiplex.util;
 
-import com.javamultiplex.model.Employee;
+import com.github.javamultiplex.model.Employee;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * @author Rohit Agarwal on 01/02/22 12:50 PM
- * @copyright www.javamultiplex.com
+ * @copyright github.com/javamultiplex
  */
 public class EmployeeUtilTest {
 

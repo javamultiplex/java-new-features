@@ -1,13 +1,12 @@
-package com.javamultiplex.demo;
+package com.github.javamultiplex.demo;
 
-import lombok.Builder;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * @author Rohit Agarwal on 06/03/22 11:28 PM
- * @copyright www.javamultiplex.com
+ * @copyright github.com/javamultiplex
  */
 
 public class JavaRecordTest {

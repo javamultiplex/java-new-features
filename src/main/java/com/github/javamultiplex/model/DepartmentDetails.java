@@ -1,11 +1,11 @@
-package com.javamultiplex.model;
+package com.github.javamultiplex.model;
 
 import lombok.Getter;
 import lombok.ToString;
 
 /**
  * @author Rohit Agarwal on 02/02/22 11:17 PM
- * @copyright www.javamultiplex.com
+ * @copyright github.com/javamultiplex
  */
 @Getter
 @ToString

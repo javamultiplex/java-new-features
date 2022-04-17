@@ -1,4 +1,4 @@
-package com.javamultiplex.demo;
+package com.github.javamultiplex.demo;
 
 import org.junit.jupiter.api.Test;
 
@@ -7,7 +7,7 @@ import java.util.Set;
 
 /**
  * @author Rohit Agarwal on 12/03/22 6:42 PM
- * @copyright www.javamultiplex.com
+ * @copyright github.com/javamultiplex
  */
 public class ParallelStreamsTest {
 

@@ -1,10 +1,10 @@
-package com.javamultiplex.demo;
+package com.github.javamultiplex.demo;
 
 import org.junit.jupiter.api.Test;
 
 /**
  * @author Rohit Agarwal on 06/03/22 11:31 PM
- * @copyright www.javamultiplex.com
+ * @copyright github.com/javamultiplex
  */
 public class PatternMatchingInstanceOfTest {
 

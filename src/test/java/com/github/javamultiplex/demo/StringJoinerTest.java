@@ -1,6 +1,6 @@
-package com.javamultiplex.demo;
+package com.github.javamultiplex.demo;
 
-import com.javamultiplex.model.Employee;
+import com.github.javamultiplex.model.Employee;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * @author Rohit Agarwal on 27/02/22 11:05 PM
- * @copyright www.javamultiplex.com
+ * @copyright github.com/javamultiplex
  */
 public class StringJoinerTest {
 

@@ -1,7 +1,7 @@
-package com.javamultiplex.util;
+package com.github.javamultiplex.util;
 
-import com.javamultiplex.model.DepartmentDetails;
-import com.javamultiplex.model.Employee;
+import com.github.javamultiplex.model.DepartmentDetails;
+import com.github.javamultiplex.model.Employee;
 
 import java.util.List;
 import java.util.Map;
@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 /**
  * @author Rohit Agarwal on 01/02/22 12:36 PM
- * @copyright www.javamultiplex.com
+ * @copyright github.com/javamultiplex
  */
 
 //https://javadevcentral.com/collectors-new-methods-jdk-9-to-11

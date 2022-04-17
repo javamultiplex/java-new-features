@@ -1,4 +1,4 @@
-package com.javamultiplex.model;
+package com.github.javamultiplex.model;
 
 import lombok.Getter;
 import lombok.ToString;
@@ -7,7 +7,7 @@ import java.util.Set;
 
 /**
  * @author Rohit Agarwal on 01/02/22 12:33 PM
- * @copyright www.javamultiplex.com
+ * @copyright github.com/javamultiplex
  */
 @Getter
 @ToString
