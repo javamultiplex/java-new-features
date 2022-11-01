@@ -193,6 +193,9 @@
      - Null matching
    - Deprecate the finalization for removal
 
+## Java 19
+TBD
+
 ## References
 
 - https://www.youtube.com/watch?v=oRcOiGWK9Ts
