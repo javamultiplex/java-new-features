@@ -220,6 +220,7 @@
   ```
   
   - Record Patterns (Preview)
+  - Virtual Threads (Preview)
 
 ## References
 
