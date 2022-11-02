@@ -195,6 +195,30 @@
 
 ## Java 19
   - Pattern Matching for switch expressions (Third Preview)
+  
+  ```
+  switch (obj) {
+  case String s && s.length() > 5 -> System.out.println(s.toUpperCase());
+  case String s                   -> System.out.println(s.toLowerCase());
+
+  case Integer i                  -> System.out.println(i * i);
+
+  default -> {}
+}
+  ```
+  above code can be written like this
+  
+  ```
+  switch (obj) {
+  case String s when s.length() > 5 -> System.out.println(s.toUpperCase());
+  case String s                     -> System.out.println(s.toLowerCase());
+
+  case Integer i                    -> System.out.println(i * i);
+
+  default -> {}
+}
+  ```
+  
   - Record Patterns (Preview)
 
 ## References
