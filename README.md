@@ -194,7 +194,8 @@
    - Deprecate the finalization for removal
 
 ## Java 19
-TBD
+  - Pattern Matching for switch expressions (Third Preview)
+  - Record Patterns (Preview)
 
 ## References
 
